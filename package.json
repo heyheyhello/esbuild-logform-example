@@ -1,0 +1,17 @@
+{
+  "name": "esbuild-logform",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "esbuild": "^0.7.19",
+    "logform": "^2.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "build": "esbuild --bundle index.js --outfile=bundle.js --platform=node"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT"
+}
